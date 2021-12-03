@@ -24,7 +24,7 @@
 <details open='true'>
   <summary>English</summary>
 
-  # Complete Java methods
+  # Complete Java Methods
 
   Please complete `hello` and `add` methods in [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-write-static-methods/blob/main/src/main/java/com/bytelegend/Challenge.java). Run the program you should get output:
 

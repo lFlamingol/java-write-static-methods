@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 public class ChallengeTest {
     @Test
     @CaptureSystemOutput
-    public void importStringUtilsCorrectly(CaptureSystemOutput.OutputCapture capture) {
+    public void test(CaptureSystemOutput.OutputCapture capture) {
         capture.expect(Matchers.containsStringIgnoringCase("Hello"));
         capture.expect(Matchers.containsStringIgnoringCase("42"));
         Challenge.main(new String[0]);
