@@ -1,6 +1,6 @@
 package com.bytelegend;
 
-public class Chanllenge {
+public class Challenge {
     public static String hello() {
         return "hello";
     }
