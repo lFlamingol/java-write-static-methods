@@ -7,7 +7,7 @@ public class Challenge {
     }
     
 
-    public static hello() {
+    public static String hello() {
         return "Hello";
     }
 
