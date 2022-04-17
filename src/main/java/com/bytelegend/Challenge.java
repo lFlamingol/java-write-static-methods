@@ -11,6 +11,6 @@ public class Challenge {
     }
 
     public static String add(Integer integer,Integer integer2) {
-        return integer+"";
+        return integer+integer2+"";
     }
 }
