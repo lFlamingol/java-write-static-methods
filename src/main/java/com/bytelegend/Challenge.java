@@ -12,8 +12,8 @@ public class Challenge {
 
     public static int add(int a,int b) {
         for (i=0,i<a,i++){
-            b++
+            b++;
         }
-        return b
+        return b;
     }
 }
