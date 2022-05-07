@@ -7,10 +7,13 @@ public class Challenge {
     }
 
     public static String hello() {
-        return "Hello"
+        return "Hello";
     }
 
     public static int add(int a,int b) {
-        return 2*a+b-a
+        for (i=0,i<a,i++){
+            b++
+        }
+        return b
     }
 }
