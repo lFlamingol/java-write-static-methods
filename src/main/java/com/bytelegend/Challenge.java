@@ -11,7 +11,7 @@ public class Challenge {
         System.out.println("hello");
     }
 
-    public static int add() {
-        return 42;
+    public static int add(int a, int b) {
+        return a+b;
     }
 }
