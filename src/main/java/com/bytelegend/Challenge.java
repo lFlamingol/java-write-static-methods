@@ -5,12 +5,11 @@ public class Challenge {
         System.out.println(hello());
         System.out.println(add(40, 2));
     }
-
-    public static hello() String {
+    public static String hello() {
         return "Hello";
     }
 
-    public static add(int a, int b) int {
+    public static int add(int a, int b) {
         return a + b;
     }
 }
