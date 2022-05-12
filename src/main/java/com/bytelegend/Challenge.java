@@ -6,11 +6,11 @@ public class Challenge {
         System.out.println(add(40, 2));
     }
 
-    public static hello() {
+    public static hello() String {
         return "Hello";
     }
 
-    public static add(int a, int b) {
+    public static add(int a, int b) int {
         return a + b;
     }
 }
