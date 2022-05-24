@@ -14,3 +14,8 @@ public class Challenge {
         return z + y;
     }
 }
+public static void main (String[]args){
+    Challenge a = new Challenge("a");
+    a.hello();
+    a.add(2,2);
+}
