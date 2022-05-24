@@ -16,6 +16,5 @@ public class Challenge {
 }
 public static void main (String[]args){
     Challenge a = new Challenge("a");
-    a.main()
-   
+    a.main();
 }
