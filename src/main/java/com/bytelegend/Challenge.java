@@ -13,5 +13,5 @@ public class Challenge {
     public static int add(int z,int y) {
         z = z + 40;
         return z + y;
-    }j
+    }
 }
