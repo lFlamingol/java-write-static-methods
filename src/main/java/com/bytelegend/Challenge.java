@@ -2,15 +2,15 @@ package com.bytelegend;
 
 public class Challenge {
     public static void main(String[] args) {
-        System.out.println(hello());
-        System.out.println(add(40, 2));
+        hello();
+        add();
     }
 
-    public static String hello() {
-        return "Hello";
+    public static void hello() {
+        System.out.println("Hello");
     }
 
-    public static int add(int z,int y) {
-        return z + y;
+    public static void add(int z,int y) {
+       System.out.println(z + y);
     }
 }
