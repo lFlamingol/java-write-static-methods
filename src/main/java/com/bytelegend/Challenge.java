@@ -1,16 +1,17 @@
-package com.bytelegend;
+package com.bytelegend; 
 
-public class Challenge {
+class Challenge {
     public static void main(String[] args) {
-        System.out.println(hello());
-        System.out.println(add(40, 2));
+        System.out.println(hello()); 
+        System.out.println(add(40, 2)); 
     }
 
     public static String hello() {
-        return "Hello";
-    }
-
+            System.out.println("Hello"); 
+            return "Hello"; 
+        }
     public static int add(int z,int y) {
-        return z + y;
+        System.out.println("z+y"); 
+        return z + y; 
     }
 }
