@@ -10,7 +10,7 @@ public class Challenge {
         System.out.println("Hello")
     }
 
-    public static add(Int a, Int b) {
+    public static add(int a, int b) {
         System.out.println(a + b)
     }
 }
