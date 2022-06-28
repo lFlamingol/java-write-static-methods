@@ -7,7 +7,7 @@ public class Challenge {
     }
 
     public static hello() {
-        System.out.println("hello")
+        System.out.println("Hello")
     }
 
     public static add() {
