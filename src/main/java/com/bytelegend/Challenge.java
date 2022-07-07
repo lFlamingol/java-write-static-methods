@@ -6,8 +6,9 @@ public class Challenge {
         System.out.println(add(40, 2));
     }
 
-    public static hello(String str) {
-        return str;
+  
+    public static String hello() {
+        return "hello";
     }
 
     public static int add(int x,int x2) {
