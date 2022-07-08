@@ -7,12 +7,12 @@ public class Challenge {
     }
 
     public static hello() {
-        String c = "Hello";
-        return c;
+        String a = "Hello";
+        return a;
     }
 
     public static int add(int a , int b) {
-        int i = a + b;
-        return i;
+        int sum = a + b;
+        return sum;
     }
 }
