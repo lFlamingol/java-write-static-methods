@@ -2,7 +2,7 @@ package com.bytelegend;
 
 public class Challenge {
     public static void main(String[] args) {
-            System.out.println(Test.hello());
+            System.out.println(Challenge.hello());
             System.out.println(add(40, 2));
         }
 
