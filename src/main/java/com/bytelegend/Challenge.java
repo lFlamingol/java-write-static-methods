@@ -2,14 +2,11 @@ package com.bytelegend;
 
 public class Challenge {
     public static void main(String[] args) {
-        hello();
-        add();
+        hello("Hello");
+        add(40, 2);
     }
 
-    public static void hello() {System.out.println("Hello");}
+    static void hello(String a) { System.out.println(a);}
 
-    public static void add() {
-        int a = 40;
-        int b = 2;
-        System.out.println(a + b); }
+    static void add(int b, int c) {System.out.println(Integer.sum(b,c));}
 }
