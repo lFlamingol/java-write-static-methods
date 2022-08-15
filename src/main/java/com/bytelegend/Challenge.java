@@ -11,7 +11,7 @@ public class Challenge {
         return hi;
     }
 
-    public static add(int x, int y) {
-        x+y;
+    public static int add(int x, int y) {
+        return x+y;
     }
 }
