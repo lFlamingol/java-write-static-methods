@@ -7,10 +7,10 @@ public class Challenge {
     }
 
     public static String hello() {
-        System.out.println("hello");
+        return "hello";
     }
 
     public static int add(int a, int b) {
-        System.out.println(a + b);
+        return a + b;
     }
 }
