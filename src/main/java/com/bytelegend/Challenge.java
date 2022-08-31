@@ -15,4 +15,4 @@ public class Challenge {
             return x+y;
         }
     }
-}
+
