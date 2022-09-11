@@ -7,7 +7,7 @@ public class Challenge {
     }
 
     public static hello() {}
-        String hello = "Hello"
+        char hello = "Hello";
         return hello;
     public static add(int a, int b) {}
         int c = a + b;
