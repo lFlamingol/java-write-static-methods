@@ -11,6 +11,6 @@ public class Challenge {
     }
 
     public static int add(int i,int j) {
-        return i;
+        return i + j;
     }
 }
