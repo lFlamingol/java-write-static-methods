@@ -8,7 +8,7 @@ public class Challenge {
 
     public static String hello() {
 //        System.out.println("Hellow");
-        return "Hellow";
+        return "Hello";
     }
 
     public static int add(int a,int b) {
