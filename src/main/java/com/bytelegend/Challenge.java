@@ -3,7 +3,7 @@ package com.bytelegend;
 public class Challenge {
     public static void main(String[] args) {
         hello();
-        int total = add(40, 2);
+        int total = add(40,2);
         System.out.println(total);
     }
 
@@ -11,7 +11,7 @@ public class Challenge {
         System.out.println("Hello");
     }
 
-    public static int add(int a, int b) {
-        return a + b;
+    public static int add(int 40, int 2) {
+        return 4 + 2;
     }
 }
