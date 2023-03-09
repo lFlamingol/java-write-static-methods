@@ -2,18 +2,16 @@ package com.bytelegend;
 
 public class Challenge {
     public static void main(String[] args) {
-        hello();
-        int total = add();
+        System.out.println(hello());
+        int total = add(1, 2);
         System.out.println(total);
     }
 
-    public static void hello() {
-        System.out.println("Hello");
+    public static String hello() {
+        return "Hello";
     }
 
-    public static int add() {
-        int a = 40;
-        int b = 2;
+    public static int add(int a, int b) {
         return a + b;
     }
 }
