@@ -1,17 +1,11 @@
 package com.bytelegend;
 
-public class Challenge {
-    public static void main(String[] args) {
-        hello();
-        add(4,2);
-    }
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-    public static void hello() {
-    System.out.println("hello");
-    return;
-    }
-
-    public static void add(int a, int b) {
-    System.out.println(a + b);
+public class ChallengeTest {
+    @Test
+    public void testAdd() {
+        assertEquals(6, Challenge.add(4, 2));
     }
 }
