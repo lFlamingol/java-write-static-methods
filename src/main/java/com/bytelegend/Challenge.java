@@ -3,16 +3,16 @@ package com.bytelegend;
 public class Challenge {
     public static void main(String[] args) {
         hello();
-        add(40, 2);
+        add();
     }
 
     public static void hello() {
-        System.out.println("Hello");
-    }
+    System.out.println("hello");
+    return;
+}
 
-    public static int add(int a, int b) {
-        int result = a + b;
-        System.out.println(result);
-        return result;
-    }
+    public static void add() {
+    System.out.println(add(4,2));
+    return;
+}
 }
