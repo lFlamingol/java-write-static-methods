@@ -8,9 +8,11 @@ public class Challenge {
 
     public static hello() {
         System.out.println(hello());
+        return;
     }
 
     public static add() {
         System.out.println(add(40, 2));
+        return;
     }
 }
