@@ -1,9 +1,11 @@
 package com.bytelegend;
 
 public class Challenge {
+
     public static void main(String[] args) {
-        hello();
-        add(40,2);
+        System.out.println("Hello, world!");
+        int a = 40 + 2;
+        System.out.println("The answer is " + a);
     }
 
     public static String hello() {
