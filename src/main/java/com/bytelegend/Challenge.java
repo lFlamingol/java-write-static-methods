@@ -2,9 +2,8 @@ package com.bytelegend;
 
 public class Challenge {
     public static void main(String[] args) {
-        System.out.println(hello());
-        int total = add(1, 2);
-        System.out.println(total);
+        hello();
+        add(40,2);
     }
 
     public static String hello() {
