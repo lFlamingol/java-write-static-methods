@@ -10,7 +10,7 @@ public class Challenge {
         return "Hello"
     }
 
-    public static add() {
-        return "42"
+    public static add(Number arg1, Number arg2) {
+        return arg1+arg2
     }
 }
