@@ -11,6 +11,6 @@ public class Challenge {
     }
 
     public static int add(int... ints) {
-        return java.util.IntStream.of(ints).sum();
+        return java.util.stream.IntStream.of(ints).sum();
     }
 }
