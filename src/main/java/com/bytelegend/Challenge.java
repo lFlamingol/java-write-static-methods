@@ -10,7 +10,7 @@ public class Challenge {
         return "Hello";
     }
 
-    public static String add(int a, int b) {
+    public static int add(int a, int b) {
         return a + b;
     }
 }
